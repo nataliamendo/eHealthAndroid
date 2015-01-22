@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ehealth"
+    android:orientation="vertical"
+    tools:context=".LoginPActivity" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/trans3"
+        android:orientation="vertical"
+        tools:context=".LoginPActivity" >
+
+        <EditText
+            android:id="@+id/nombreUP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="70dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:maxLength="20"
+            android:text="paciente1" />
+
+        <EditText
+            android:id="@+id/passwordUP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="40dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:maxLength="20"
+            android:text="password" />
+
+        <Button
+            android:id="@+id/loginPaciente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="20dp"
+            android:background="#64E8CE"
+            android:ems="10"
+            android:text="Login"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</LinearLayout>

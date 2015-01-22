@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ehealth"
+    android:orientation="vertical"
+    tools:context=".UsuarioCheckActivity" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/trans3"
+        android:orientation="vertical"
+        tools:context=".UsuarioCheckActivity" >
+
+        <Button
+            android:id="@+id/paciente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/signup"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="70dp"
+            android:background="#64E8CE"
+            android:ems="10"
+            android:text="PACIENTE"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/medico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/login"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="70dp"
+            android:background="#64E8CE"
+            android:ems="10"
+            android:text="MÉDICO"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</LinearLayout>
